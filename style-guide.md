@@ -4,14 +4,14 @@
 
 The designs were created to the following widths:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Mobile: 375px - 667px (body) -my-22,82% mx-3% / 346px - 614px (tarjeta)
+- Desktop: 1440px - 880px - my-4,06% mx-auto
 
 ## Colors
 
 ### Primary
 
-- Dark cyan: hsl(158, 36%, 37%)
+- Dark cyan: hsl(158, 36%, 37%) 
 - Cream: hsl(30, 38%, 92%)
 
 ### Neutral
