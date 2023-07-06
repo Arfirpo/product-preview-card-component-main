@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <title>Frontend Mentor | Product preview card component</title>
+</head>
+<body class="font-Montserrat bg-Cream w-[375px] h-[667px] sm:w-[1440px] sm:h-[800px] sm:mx-auto">
+  <main class="bg-White my-[26px] mx-auto w-[346px] h-[615px] rounded-xl sm:flex sm:w-[604px] sm:h-[454px] sm:mb-[74px] sm:mt-[174px]">
+    <!-- parte de arriba/izquierda -->
+    <section class="rounded-xl w-[346px] h-[242px] sm:w-[302px] sm:h-[454px] sm:rounded-none sm:overflow-hidden">
+      <img class="w-full h-full rounded-t-xl sm:content-link sm:w-full sm:h-full sm:rounded-l-lg sm:rounded-r-none" src="./images/image-product-mobile.jpg">
+    </section>
+    <!-- parte de abajo/derecha -->
+    <section class="h-[372px] mx-[3%] px-[17px] rounded-xl sm:w-[302px] sm:h-[454px] sm:m-0 sm:p-7">
+      <div>
+        <h3 class="text-[12px] tracking-[0.3rem] text-Dark-grayish-blue pt-6 pb-[0.8rem]">PERFUME</h3>
+        <h1 class="pb-[0.98rem] font-Fraunces text-[32px] leading-8">Gabrielle Essence Eau De Parfum</h1>
+        <p class=" text-[14px] text- leading-6 pb-[0.92rem] text-Dark-grayish-blue"> A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+      </div>
+      <div class="text-Darkcyan flex items-center gap-4 pb-2 sm:pb-[1.625rem]">
+        <div>
+          <p class="font-Fraunces text-[32px]">$149.99</p>
+        </div>
+        <div>
+          <span class="text-[0.875rem] line-through text-Dark-grayish-blue align-middle">$169.99</span>
+        </div>
+      </div>
+      <button class="flex justify-center w-[296px] sm:w-[246px] h-[50px] rounded-[0.5rem] bg-Darkcyan font-bold text-White text-sm hover:bg-cyan-hover hover:cursor-pointer active:bg-cyan-hover items-center">
+          <img class="inline mr-2" src="/images/icon-cart.svg" alt="">
+        Add to Cart
+      </button>
+    </section>
+  </main>
+  <footer class="text-[0.6875rem] text-center">
+    Challenge by <a class="text-atributtion-a hover:underline" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="text-atributtion-a hover:underline" href="https://www.frontendmentor.io/profile/Arfirpo">Agustín R. Firpo</a>.
+  </footer>  
+
+</body>
+</html>
