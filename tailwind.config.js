@@ -16,6 +16,9 @@ module.exports = {
         'White': 'hsl(0, 0%, 100%)',
         'atributtion-a':'hsl(228, 45%, 44%)'
       },
+      content:{
+        'link': 'url("../images/image-product-desktop.jpg")'
+      },
       fontSize:{
         'parragraph': ['14px']
       }
